@@ -10,6 +10,11 @@
 
 #import <Foundation/Foundation.h>
 
+#define HookArea @"HookArea"
+#define HookDownLoad @"HookDownLoad"
+#define HookWaterMark @"HookWaterMark"
+#define UserDefaults [NSUserDefaults standardUserDefaults]
+
 #define INSERT_SUCCESS_WELCOME "               🎉!!！congratulations!!！🎉\n👍----------------insert dylib success----------------👍\n"
 
 @interface CustomViewController

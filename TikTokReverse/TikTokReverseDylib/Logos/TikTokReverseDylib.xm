@@ -58,3 +58,11 @@
 }
 
 %end
+
+%hook TTNetworkManagerChromium
+- (NSArray *)ServerCertificate
+{
+    NSLog(@"icemanTestSuccess");
+    return nil;
+}
+%end
